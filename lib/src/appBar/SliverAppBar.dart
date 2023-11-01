@@ -1,0 +1,42 @@
+import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'SliverAppBar Demo',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.deepOrange,
+      ),
+      home: const MyHomePage(title: 'Flutter and Dart Cookbook'),
+    );
+  }
+}
+
+class MyHomePage extends StatelessWidget {
+  final String title;
+  const MyHomePage({
+    Key? key,
+    required this.title,
+  }) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.grey[300],
+      body: const CustomScrollView(
+        slivers: [
+          SliverAppBar(
+            leading: Icon(Icons.menu),
+            title: Text('Sliver App Bar'),
+            expandedHeight: 300,
+            collapsedHeight: 150,
+            floating: false,
+          ),
+        ], // End
+      ),
+    );
+  }
+}
