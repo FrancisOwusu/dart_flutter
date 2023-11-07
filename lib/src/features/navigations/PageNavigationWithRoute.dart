@@ -80,7 +80,7 @@ class ChooseCredentialsPage extends StatelessWidget {
     return GestureDetector(
       onTap: onSignupComplete,
       child: DefaultTextStyle(
-        style: Theme.of(context).textTheme.headline4!,
+        style: Theme.of(context).textTheme.headlineMedium!,
         child: Container(
           color: Colors.pinkAccent,
           alignment: Alignment.center,
@@ -95,7 +95,7 @@ class CollectPersonalInfoPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTextStyle(
-      style: Theme.of(context).textTheme.headline4!,
+      style: Theme.of(context).textTheme.headlineMedium!,
       child: Container(
         color: Colors.white,
         child: Column(

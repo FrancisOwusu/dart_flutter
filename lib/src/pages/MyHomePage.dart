@@ -12,9 +12,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           primarySwatch: Colors.blue,
           textTheme: TextTheme(
-              bodyText1:
+              bodyLarge:
                   GoogleFonts.aBeeZee(fontSize: 30, color: Colors.deepOrange),
-              bodyText2:
+              bodyMedium:
                   GoogleFonts.aBeeZee(fontSize: 30, color: Colors.white60))),
       home: const MyHomePage(title: 'Flutter and Dart Cookbook'),
     );
