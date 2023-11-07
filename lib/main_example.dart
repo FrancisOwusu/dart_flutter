@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 // import 'package:my_awesome_app/src/common_widgets/MyCenterStatelessWidget.dart';
-import 'package:my_awesome_app/src/common_widgets/MyRowStatelessWidget.dart';
 import 'package:my_awesome_app/src/common_widgets/MyExpandedWidget.dart';
 
 void main() => runApp(const MyApp());

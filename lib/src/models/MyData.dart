@@ -1,7 +1,2 @@
-class MyData {
-  final String items = '{"data": [
-  { "title": "January" },
-{ "title": "February" },
-{ "title": "March" },
-] }';
-}
+// ignore_for_file: file_names
+
