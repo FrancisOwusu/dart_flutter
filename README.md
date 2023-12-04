@@ -1,4 +1,4 @@
-# my_awesome_app
+# Dart and Flutter Development
 
 A new Flutter project.
 
