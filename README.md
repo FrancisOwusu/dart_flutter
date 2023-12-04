@@ -1,6 +1,6 @@
 # my_awesome_app
 
-A new Flutter project.
+I created this project to learn dart and flutter
 
 ## Getting Started
 
